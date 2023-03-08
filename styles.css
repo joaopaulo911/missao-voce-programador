@@ -1,21 +1,36 @@
 * {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     box-sizing: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
 
+=======
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+>>>>>>> 90e8641f4bf07abcecd4c42e58325522dbcaed19
 body {
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     height: 100vh; /*altura*/
     width: 100vw; /*largura*/
+=======
+    height: 100vh;
+    /* Altura / vh - altura */
+    width: 100vw;
+    /*  vw - largura */
+>>>>>>> 90e8641f4bf07abcecd4c42e58325522dbcaed19
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
 }
 
 .caixa-maior {
+<<<<<<< HEAD
     background-color: #000000;
     width: 95%; /*largura */
     max-width: 420px;
@@ -36,6 +51,25 @@ input {
 
     
 
+=======
+    background-color: #000000;/*  Troca cor de fundo  */
+    width: 95%; /*  Largura  */
+    max-width: 420px; /*  Largura  Maxima */
+    opacity: 0.8;/* transparencia do item */
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input {
+    border: none;/* borda do elemento */
+    outline: none;/* borda quando seleciona o elemento */
+    padding: 10px;/* espaçamento interno */
+    border-radius: 24px;/* arredonda as bordas */
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc( 100% - 100px);
+>>>>>>> 90e8641f4bf07abcecd4c42e58325522dbcaed19
 }
 
 button {
@@ -46,6 +80,7 @@ button {
     background-color: #7c7c7c2b;
     float: right;
     cursor: pointer;
+<<<<<<< HEAD
 
 
 
@@ -60,6 +95,18 @@ button:hover{
     
 
 }
+=======
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.caixa-media {
+    margin-top: 30px;
+}
+
+>>>>>>> 90e8641f4bf07abcecd4c42e58325522dbcaed19
 .caixa-menor {
     display: flex;
     margin-top: 30px;
@@ -68,27 +115,46 @@ button:hover{
 
 .lupa {
     height: 20px;
+<<<<<<< HEAD
 
 
     
+=======
+>>>>>>> 90e8641f4bf07abcecd4c42e58325522dbcaed19
 }
 
 h2 {
     color: white;
+<<<<<<< HEAD
     font-size: 28px; /*tamanho do texto*/
 }
+=======
+    font-size: 28px; /* tamanho do texto */
+}
+
+>>>>>>> 90e8641f4bf07abcecd4c42e58325522dbcaed19
 .temp {
     color: #ffffff;
     margin-top: 30px;
 }
 
 .descricao {
+<<<<<<< HEAD
     color: #ffff;
     margin-left: 20px;
     text-transform: capitalize;
+=======
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize; /* Deixa a primeira letra maiuscula*/
+>>>>>>> 90e8641f4bf07abcecd4c42e58325522dbcaed19
 }
 
 .umidade {
     color: #ffffff;
     margin-top: 30px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 90e8641f4bf07abcecd4c42e58325522dbcaed19
